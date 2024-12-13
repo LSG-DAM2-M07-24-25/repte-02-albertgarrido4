@@ -32,6 +32,7 @@ fun LaunchScreen(viewModel: LaunchScreenViewModel = viewModel(), navController: 
             contentDescription = "App Logo",
             modifier = Modifier.size(600.dp)
         )
+        Spacer(modifier = Modifier.height(80.dp))
         Button(
             onClick = {navController.navigate(Routes.Screen2.route)}
         ) {
